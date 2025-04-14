@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="25">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.10" pages="27">
   <diagram id="dGGgCRRzkfK_Dobj67br" name="App1-Clarifai-Register-page">
     <mxGraphModel dx="1733" dy="2076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5031,6 +5031,115 @@
         <mxCell id="HPoHl_TwHRgxWO-g4vmc-1" value="Stored on Client-side&#xa;sessionStorage&#xa;&#xa;JSON.stringify(cookie);&#xa;{ &quot;user&quot;: &quot;user1&quot;, &quot;hash&quot;: &quot;String&quot;, &quot;items&quot;: [] }" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFF00" vertex="1" parent="1">
           <mxGeometry x="69" y="-131" width="198" height="96" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="g8B0P52UHk2RWLZC_AkV" name="Page-26">
+    <mxGraphModel dx="1283" dy="2017" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-1" value="getAdAndSqlGroup data flow" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-691" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-2" value="HTTP Response" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="324" y="-260" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="568" y="-230.55999999999977" as="sourcePoint" />
+            <mxPoint x="175" y="-230.56" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="-230.56" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-4" value="Python Flask" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#3d3de0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="568" y="-600" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-5" value="Jinja2 Frontend" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-23" y="-600" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jg2CEYT3Xz_37TlVUMs6-5" target="Jg2CEYT3Xz_37TlVUMs6-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="187" y="-570.56" as="sourcePoint" />
+            <mxPoint x="555" y="-570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="-570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-7" value="HTTP POST Request&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HTTP header:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;key: X-CSRF-Token&lt;/div&gt;&lt;div&gt;value: someTokenValue&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FormData:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;name: nick.yuen&lt;/div&gt;&lt;div&gt;submit: submit&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="299" y="-511" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-8" value="sqlserverApi" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#7575fa" vertex="1" parent="1">
+          <mxGeometry x="568" y="-440" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-9" value="ODBC Driver 17 for SQL Server connector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="542" y="-336" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-10" value="&lt;br&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;http://localhost:3001/register&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="-630" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Jg2CEYT3Xz_37TlVUMs6-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.47" y="-537.5" as="sourcePoint" />
+            <mxPoint x="666" y="-445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="706.97" y="-514.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Jg2CEYT3Xz_37TlVUMs6-19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.47" y="-380" as="sourcePoint" />
+            <mxPoint x="666" y="-300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="706.97" y="-357" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Jg2CEYT3Xz_37TlVUMs6-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.94" y="-240" as="sourcePoint" />
+            <mxPoint x="667" y="-120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="707.44" y="-217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-14" value="Transact SQL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="529" y="-169" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-15" value="DB_username: pywebSvc&lt;div&gt;DB_PASSWORD: Infra@1234&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="665" y="-169" width="228" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-17" value="Jinja2 Frontend" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-23" y="-260" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-18" value="database &#39;ConTrade&#39;" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="568" y="-110" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-19" value="sg-pulsar-prod-rds-sng.cxsz35ckaifh.ap-southeast-1.rds.amazonaws.com,62286" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="568" y="-260" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-20" value="http://localhost:5000/getAdAndSqlGroup" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-26" y="-624" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-21" value="http://localhost:5000/getAdAndSqlGroup" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-26" y="-285" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg2CEYT3Xz_37TlVUMs6-22" value="TCP Port: 62286" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="643" y="-336" width="179" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TUhMwaBg9a7TCLqIMBv5" name="Page-27">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
