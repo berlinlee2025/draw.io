@@ -5136,10 +5136,118 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TUhMwaBg9a7TCLqIMBv5" name="Page-27">
-    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1283" dy="2017" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HnMipO6zv3BXJUahMY0m-1" value="GitLab CI/CD with Harbor architecture" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-691" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="195" y="145" as="sourcePoint" />
+            <mxPoint x="570.4999999999998" y="145" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="126" y="144" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-4" value="GitLab CI client&#xa;inf-p-web001" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#3d3de0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="568" y="-600" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-5" value="GitLab CI server" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="-23" y="-600" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HnMipO6zv3BXJUahMY0m-5" target="HnMipO6zv3BXJUahMY0m-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="187" y="-570.56" as="sourcePoint" />
+            <mxPoint x="555" y="-570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="-570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-7" value="Data Encryption via OSI Layer 4 TLSv1.3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300.5" y="-507" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-8" value="gitlab-runner&#xa;/etc/gitlab-runner/config.toml" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#7575fa" vertex="1" parent="1">
+          <mxGeometry x="568" y="-440" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-9" value="OS process" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="551" y="-336" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.47" y="-538.5" as="sourcePoint" />
+            <mxPoint x="666.9999999999998" y="-441" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="706.97" y="-515.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="HnMipO6zv3BXJUahMY0m-18">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.47" y="-380" as="sourcePoint" />
+            <mxPoint x="666" y="-300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="706.97" y="-357" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.94" y="-240" as="sourcePoint" />
+            <mxPoint x="666.9999999999998" y="-73" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="707.44" y="-217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-15" value="Using Docker-in-Docker&lt;div&gt;as an entry point to&lt;/div&gt;&lt;div&gt;docker push newer&lt;/div&gt;&lt;div&gt;to Harbor&amp;nbsp;&lt;/div&gt;&lt;div&gt;(due to code changes)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="468" y="-149" width="228" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-18" value="Run .gitlab-ci.yml&#xa;[on inf-p-web001]" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="568" y="-260" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-19" value="http://gitlab.pulsar.org/dev-ops/usermgmt-docker-flask-nginx" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-26" y="-639" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-22" value="OSI Layer 7 Web-hook&lt;br&gt;HTTPS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300.5" y="-557" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-23" value="Private IP: 10.11.30.41" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-26" y="-540" width="203" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-24" value="Private IP: 10.11.30.100" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="568" y="-629" width="203" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-25" value="Code changes detected" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300.5" y="-609" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-26" value="Harbor (Docker Registry)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#3d3de0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="570.5" y="-68" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-28" value="Code changes detected&lt;br&gt;-&amp;gt;&lt;br&gt;docker pull" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="302" y="99" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-29" value="OSI Layer 7 Web-hook&lt;br&gt;HTTPS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300.5" y="169" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-30" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="666.2900000000001" y="-8" as="sourcePoint" />
+            <mxPoint x="666.82" y="112" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="706.7900000000001" y="15" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-31" value="GitLab CI client&#xa;inf-p-web001" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#7575fa" vertex="1" parent="1">
+          <mxGeometry x="-4" y="115" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnMipO6zv3BXJUahMY0m-32" value="Newer Docker images" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFA500" vertex="1" parent="1">
+          <mxGeometry x="573" y="113" width="198" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
